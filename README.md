@@ -1,4 +1,4 @@
-# Traffic-Management
+# Signaling Traffic Signals based on Traffic Density
 Gave an algorithm to the traffic signals at a signal junction based on the number of vehicles in each direction. Thus, it favors the direction that has the highest traffic, considered that no direction should be waiting for much time or left out completely. The algorithm we proposed performed better than round robin scheduling and priority scheduling algorithms.
 
 The Idea is that whenever a singal is supposed to be allocated to one of the directions, it captures the photos in each direction and measures the vehicles in each direction.
